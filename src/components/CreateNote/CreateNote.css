@@ -1,0 +1,57 @@
+.createnote-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.createnote{
+    width:25rem;
+    height: 14.9rem;
+    border-radius: 8px;
+}
+
+.createnote input,textarea,button {
+    width: 100%;
+    background-color: rgb(32,33,36);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+}
+
+.createnote input {
+    padding: 10px;
+    outline: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px 8px 0px 0px ;
+
+
+}
+
+
+.createnote textarea {
+    outline: none;
+    resize: none;
+    padding: 8px;
+    border-top: none;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+
+
+
+button{
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(13, 113, 153);
+    font-size: medium;
+    border: 1px;
+    color: white;
+    border-radius: 8px;
+
+}
+button:hover {
+    background-color: rgb(26, 144, 190);
+}
